@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the web adress and or companylogo are clicked.
+     * This method is called when any of the web adress or companypicture or companylogo is clicked.
      */
 
     public void openweb(View v) {

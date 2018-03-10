@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:onClick="openweb"
             android:scaleType="fitCenter"
             android:src="@drawable/skalacompany" />
 
@@ -162,6 +163,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
+                android:onClick="openweb"
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
@@ -173,7 +175,6 @@
                 android:text="www.skalafilm.com"
                 android:textColor="@android:color/black"
                 android:textSize="12sp"
-                android:onClick="openweb"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -207,6 +208,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
+                android:onClick="contact"
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
@@ -218,7 +220,6 @@
                 android:text="contact@skalafilm.com"
                 android:textColor="@android:color/black"
                 android:textSize="12sp"
-                android:onClick="contact"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -230,10 +231,10 @@
             android:layout_below="@id/skalacompany_jpg"
             android:layout_marginTop="260dp"
             android:adjustViewBounds="true"
+            android:onClick="openweb"
             android:paddingBottom="0dp"
             android:paddingTop="0dp"
             android:scaleType="fitCenter"
-            android:onClick="openweb"
             android:src="@drawable/skalalogo" />
 
 
